@@ -38,6 +38,23 @@ header h1 {
   color: #ccc;
 }
 
+.edit-mode {
+  color: red;
+  animation: blink 2s ease-in-out infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: .75
+  }
+
+  50% {
+    opacity: .5
+  }
+}
+
 /* Form & Input */
 .form-input {
   width: 100%;
