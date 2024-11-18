@@ -139,6 +139,16 @@ header h1 {
   margin: 0 5px 20px;
   font-weight: 700;
   cursor: pointer;
+  /** Transitioning the border's color to make it smoother */
+  transition: border-color 125ms ease-in-out;
+  transition: box-shadow 75ms ease-in-out;
+}
+
+/** Giving a more visible effect to the hover state of the list's items */
+.items li:hover,
+.items li:focus {
+  border-color: #333;
+  box-shadow: 0 0 5px #33333344;
 }
 
 @media (max-width: 500px) {
