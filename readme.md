@@ -7,3 +7,5 @@ This project was created to focus on working with the DOM, events, state, local 
 In the future I could come back and implement it with db, add some more features and re-style the UI.
 
 <img src="images/screen.png" width="400">
+
+---
